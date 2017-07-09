@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryTrans">#AA212121</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffd600</color>
+    <color name="colorAccentTrans">#99ffea00</color>
+    <color name="hint">#99ffffff</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="colorError">#ff1744</color>
+    <color name="colorToolbar">#bbffffff</color>
+    <color name="colorText">#616161</color>
+    <color name="colorHeader">#424242</color>
+</resources>

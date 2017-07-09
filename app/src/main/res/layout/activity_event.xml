@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <kfdl.demo.view.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:toolbarTitle="Events"
+        app:enableBackButton="true"
+        app:backButtonTitle="Home"
+        app:enableHomeButton="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <kfdl.demo.view.Category
+                android:id="@+id/event1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:backgroundImage="@drawable/event1"
+                app:title="Sunrise Yoga &amp; Breakfast"/>
+
+            <kfdl.demo.view.Category
+                android:id="@+id/event2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:backgroundImage="@drawable/event2"
+                app:title="Business Brunch"/>
+
+            <kfdl.demo.view.Category
+                android:id="@+id/event3"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:backgroundImage="@drawable/event3"
+                app:title="Staff Quiz Night"
+                app:hint="Today"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

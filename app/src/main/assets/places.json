@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Mr. Mitty",
+    "description": "A little perfect coffee shop.",
+    "phone": "020 8478 9462",
+    "lat": 48.874054,
+    "lng": 2.298230
+  },
+  {
+    "id": 2,
+    "title": "Karl Marks",
+    "description": "One of the most known places in Paris.",
+    "phone": "021 7247 9385",
+    "lat": 48.873567,
+    "lng": 2.292469
+  },
+  {
+    "id": 3,
+    "title": "Cafés Verlet",
+    "description": "A refuge for coffee purists just across\nthe river from the Ile Saint-Louis.",
+    "phone": "023 9288 0029",
+    "lat": 48.875317,
+    "lng": 2.297619
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Offer 1",
+    "phone": "020 8478 9462",
+    "image": "offer1",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Offer 2",
+    "phone": "837 3856 2947",
+    "image": "offer2",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Offer 3",
+    "phone": "090 8574 9481",
+    "image": "offer3",
+    "rating": 3
+  }
+]

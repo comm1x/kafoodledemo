@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.CustomActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="MyToolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="MyToolbar.Header">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/montserrat_semibold.ttf</item>
+    </style>
+
+    <style name="MyToolbar.Header.Left" parent="MyToolbar.Header">
+        <item name="android:layout_marginRight">70dp</item>
+    </style>
+
+</resources>

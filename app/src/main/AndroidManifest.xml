@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kfdl.test.kafoodle">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="kfdl.demo.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="kfdl.demo.MainActivity"
+            android:theme="@style/AppTheme.CustomActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kfdl.demo.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kfdl.demo.EventActivity"
+            android:theme="@style/AppTheme.CustomActionBar" />
+        <activity
+            android:name="kfdl.demo.EventCardActivity"
+            android:theme="@style/AppTheme.CustomActionBar" />
+        <activity
+            android:name="kfdl.demo.OfferActivity"
+            android:theme="@style/AppTheme.CustomActionBar" />
+        <activity
+            android:name="kfdl.demo.OfferCardActivity"
+            android:theme="@style/AppTheme.CustomActionBar" />
+        <activity
+            android:name="kfdl.demo.PlaceActivity"
+            android:theme="@style/AppTheme.CustomActionBar" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="kfdl.demo.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.CustomActionBar">
+        </activity>
+    </application>
+
+</manifest>

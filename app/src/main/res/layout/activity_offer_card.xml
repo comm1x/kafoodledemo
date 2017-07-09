@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <kfdl.demo.view.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:toolbarTitle="Offer Card"
+        app:enableBackButton="true"
+        app:backButtonTitle="Offers"
+        app:enableHomeButton="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/header_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/item_divider"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dp"
+                    android:text="Calories"
+                    android:textColor="@color/colorText"
+                    android:textSize="15sp"
+                    fontPath="fonts/montserrat_regular.ttf"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="8dp"
+                    android:text="350\n24% of your daily rate"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorText"
+                    fontPath="fonts/montserrat_light.ttf"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/item_divider"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dp"
+                    android:text="Protein"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorText"
+                    fontPath="fonts/montserrat_regular.ttf"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="8dp"
+                    android:text="12gr\ntotal 35gr"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorText"
+                    fontPath="fonts/montserrat_light.ttf"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/item_divider"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dp"
+                    android:text="Suitability"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorText"
+                    fontPath="fonts/montserrat_regular.ttf"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="8dp"
+                    android:text="74%\ngood"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorText"
+                    fontPath="fonts/montserrat_light.ttf"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/offer_desc"
+                android:padding="8dp"
+                fontPath="fonts/montserrat_regular.ttf"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

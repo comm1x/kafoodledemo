@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "header": "Sunrise Yoga & Breakfast",
+    "description": "The earliest mention of the contemplative tradition is found in the oldest surviving literature Rig Veda, in Nasadiya Sukta.\n\nIt dates back to the Indus-Saraswati civilization. The Pashupati seal from the selfsame civilization shows a figure sitting in a yogic posture, further corroborating its prevalence in those ancient times.",
+    "photo": "event1"
+  },
+  {
+    "id": 2,
+    "header": "Business Brunch",
+    "description": "Instead of England's early Sunday dinner, a postchurch ordeal of heavy meats and savory pies, why not a new meal, served around noon, that starts with tea or coffee, marmalade and other breakfast fixtures before moving along to the heavier fare?\n\nBy eliminating the need to get up early on Sunday, brunch would make life brighter for Saturday-night carousers.\n\nIt would promote human happiness in other ways as well. \"Brunch is cheerful, sociable and inciting.\"",
+    "photo": "event2"
+  },
+  {
+    "id": 3,
+    "header": "Staff Quiz Night",
+    "description": "Quiz bowl is a game in which two teams compete head-to-head to answer questions from all areas of knowledge including history, literature, science, fine arts, current events, sports, and popular culture.\n\nThe defining feature of quiz bowl is the use of a “buzzer system” (or, more formally, a “lockout device”) that lets players interrupt the reading of a question when they know the answer.\n\nThat element adds a dimension of confidence, anticipation, and rapid recall to what is primarily a game about knowing facts. Those “tossup” questions are answered individually, but doing so earns one’s team a chance at a multipart “bonus” question. Bonus questions are worth more points and allow collaboration, but are generally more difficult.",
+    "photo": "event3"
+  }
+]

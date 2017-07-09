@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Logo-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:id="@+id/logo_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/logo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <!--Content-->
+        <GridLayout
+            android:id="@+id/cats_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="4dp">
+
+            <kfdl.demo.view.Category
+                android:id="@+id/cat_offers"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food6"
+                app:title="Today's offers" />
+
+            <kfdl.demo.view.Category
+                android:id="@+id/cat_places"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food5"
+                app:title="Places to eat" />
+
+            <kfdl.demo.view.Category
+                android:id="@+id/cat_events"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food7"
+                app:title="Events" />
+
+            <kfdl.demo.view.Category
+                android:id="@+id/cat_nutritions"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food3"
+                app:title="Health &amp; Nutrition" />
+
+            <kfdl.demo.view.Category
+                android:id="@+id/cat_details"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food2"
+                app:title="Specific Location Detail" />
+
+            <kfdl.demo.view.Category
+                android:id="@+id/cat_pools"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food4"
+                app:title="Daily Pools" />
+
+            <!--Test-->
+            <kfdl.demo.view.Category
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food8"
+                app:title="Your Health" />
+            <kfdl.demo.view.Category
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food9"
+                app:title="Eatwell Guide" />
+            <kfdl.demo.view.Category
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food10"
+                app:title="Fish and facts" />
+            <kfdl.demo.view.Category
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                app:backgroundImage="@drawable/food11"
+                app:title="Lower Sugar Diet" />
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

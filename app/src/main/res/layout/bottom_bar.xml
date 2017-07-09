@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary" >
+
+    <Button
+        android:id="@+id/button1"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_home"
+        android:drawableTint="@color/colorAccent"
+        android:text="MAIN"
+        android:textSize="14sp"
+        fontPath="fonts/montserrat_semibold.ttf"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_profile"
+        android:drawableTint="@color/colorAccent"
+        android:text="PROFILE"
+        android:textSize="12sp"
+        fontPath="fonts/montserrat_regular.ttf"/>
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_settings"
+        android:drawableTint="@color/colorAccent"
+        android:text="SETTINGS"
+        android:textSize="12sp"
+        fontPath="fonts/montserrat_regular.ttf"/>
+
+</LinearLayout>

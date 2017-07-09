@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Category">
+        <attr name="title" format="string"/>
+        <attr name="backgroundImage" format="integer"/>
+        <attr name="hint" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="Toolbar">
+        <attr name="toolbarTitle" format="string"/>
+        <attr name="enableBackButton" format="boolean"/>
+        <attr name="enableHomeButton" format="boolean"/>
+        <attr name="backButtonTitle" format="string"/>
+    </declare-styleable>
+</resources>

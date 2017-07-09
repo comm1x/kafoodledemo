@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profile_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/shadow_circle"/>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Alex Smith"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorHeader"
+            fontPath="fonts/montserrat_semibold.ttf"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/item_divider"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp"
+            android:text="Messages"
+            android:textColor="@color/colorText"
+            android:textSize="15sp"
+            fontPath="fonts/montserrat_regular.ttf"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="textEnd"
+            android:paddingRight="16dp"
+            android:text="8"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            fontPath="fonts/montserrat_light.ttf"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/item_divider"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp"
+            android:text="Reviews"
+            android:textColor="@color/colorText"
+            android:textSize="15sp"
+            fontPath="fonts/montserrat_regular.ttf"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="textEnd"
+            android:paddingRight="16dp"
+            android:text="2"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            fontPath="fonts/montserrat_light.ttf"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/item_divider"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp"
+            android:text="Offers"
+            android:textColor="@color/colorText"
+            android:textSize="15sp"
+            fontPath="fonts/montserrat_regular.ttf"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="textEnd"
+            android:paddingRight="16dp"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            fontPath="fonts/montserrat_light.ttf"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/item_divider"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp"
+            android:text="Food Preferences"
+            android:textColor="@color/colorText"
+            android:textSize="15sp"
+            fontPath="fonts/montserrat_regular.ttf"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="textEnd"
+            android:paddingRight="16dp"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            fontPath="fonts/montserrat_light.ttf"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
